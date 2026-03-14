@@ -1,18 +1,18 @@
 # RL Examples
 This repo contains code for RL Examples with Deep Learning
 
-## Env Creation:
+## Requirement:
 
-```
-conda create -yn rl_env python=3.11
-```
+You will require uv installed in your system
 
-## Activate Env:
-```
-conda activate rl_env
-```
 
 ## Install Dependencies
 ```
-pip install -r requirements.txt
+uv sync
+```
+
+## Run a File
+```
+uv run <filename>
+uv run .\2_openai_gym_and_gymnasium\03_random_action_wrapper.py
 ```
